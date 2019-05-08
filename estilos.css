@@ -1,0 +1,243 @@
+/*=====================================================================
+=                  Fondo de pantalla (Mayo 06 2009) HMM               =
+=====================================================================*/
+
+body {
+    background: rgb(104, 140, 161);
+    color: rgb(141, 6, 6);
+    padding: 5%;
+}
+
+/*=========  End of Fondo de pantalla (Mayo 06 2009) HMM   =====*=====/
+
+
+
+/*====================================================================
+=           Contenedor de Robot-Sonny (Mayo 06 2009) HMM             =
+====================================================================*/
+
+section {
+    height: 400px;
+    width: 200px;
+    border: 2px solidr gb(104, 140, 161);
+    margin: auto;
+}
+
+/*====  End of Contenedor de Robot-Sonny (Mayo 06 2009) HMM   ====*====/
+
+
+
+/*=====================================================================
+=            Cabeza Robot-Sonny (Mayo 06 2009) HMM             =
+=====================================================================*/
+
+#cabeza {
+    width: 60px;
+    height: 60px;
+    background: gray;
+    margin: auto;
+    display: block;
+    border-radius: 4px;
+    margin-top: 15px;
+}
+
+
+
+.ojos {
+    width: 10px;
+    height: 10px;
+    background: rgb(143, 53, 53);
+    margin: auto;
+    border-radius: 50px;
+}
+
+#ojo-der {
+    float: right;
+    padding-right: 10px;
+}
+
+#ojo-izq {
+    float: left;
+    padding-left: 10px;
+}
+
+
+
+
+#nariz {
+    width: 15px;
+    height: 15px;
+    background: rgb(80, 75, 75);
+    border-radius: 4px;
+    margin-top: 8px;
+    float: right;
+    margin-right: 20px;
+}
+
+
+
+#boca {
+    width: 20px;
+    height: 10px;
+    background: red;
+    border-radius: 5px;
+    margin-top: 10px;
+    float: right;
+    margin-right: 17px;
+}
+
+/*======  End of Cabeza Robot-Sonny (Mayo 06 2009) HMM   =====*=====/
+
+
+
+/*====================================================================
+=            Cuello Robot-Sonny (Mayo 06 2009) HMM             =
+====================================================================*/
+
+#cuello {
+    width: 15px;
+    height: 20px;
+    background: rgb(80, 75, 75);
+    margin: auto;
+}
+
+/*==========  Cuello Robot-Sonny (Mayo 06 2009) HMM   =======*=======/
+
+
+
+/*====================================================================
+= Cuerpo, contenedor de brazos y manos Robot-Sonny (Mayo 06 2009) HMM =
+=====================================================================*/
+
+#cuerpo {
+    width: 120px;
+    height: 120px;
+    background: gray;
+    margin: auto;
+    margin-top: -25px;
+    z-index: -1;
+}
+
+h6 {
+    padding: 30px;
+    color: rgb(87, 84, 84);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+.brazos {
+    width: 30px;
+    height: 100px;
+    background: rgb(143, 53, 53);
+    margin: auto;
+    border-radius: 5px;
+    z-index: 2;
+}
+
+#brazo-der {
+    position: absolute;
+    margin-left: 108px;
+}
+
+#brazo-izq {
+    position: absolute;
+    margin-left: -22px;
+}
+
+.div-brazos-top {
+    margin-top: -96px;
+}
+
+
+
+.manos {
+    width: 25px;
+    height: 25px;
+    background: rgb(80, 75, 75);
+    margin-top: 96px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+#mano-der {
+    position: absolute;
+    margin-left: 110px;
+}
+
+#mano-izq {
+    position: absolute;
+    margin-left: -19px;
+}
+
+/*=== Cuerpo, contenedor de brazos y manos Robot-Sonny (Mayo 06 2009) HMM ===*===/
+
+
+
+/*=============================================================================
+==== Piernas, contenedor de rodillas y pies Robot-Sonny (Mayo 06 2009) HMM ====
+=============================================================================*/
+
+.piernas {
+    width: 30px;
+    height: 147px;
+    background: rgb(143, 53, 53);
+    margin: auto;
+    margin-top: 0px;
+    border-radius: 5px;
+    z-index: -1;
+}
+
+#pierna-der {
+    position: absolute;
+    margin-left: 125px;
+}
+
+#pierna-izq {
+    position: absolute;
+    margin-left: 49px;
+}
+
+
+
+.rodillas {
+    width: 35px;
+    height: 25px;
+    background: rgba(153, 25, 25, 0.582);
+    margin-top: 59px;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+#rodilla-der {
+    position: absolute;
+    margin-left: 123px;
+}
+
+#rodilla-izq {
+    position: absolute;
+    margin-left: 46px;
+}
+
+
+
+.pies {
+    width: 35px;
+    height: 25px;
+    background: rgb(80, 75, 75);
+    margin-top: 140px;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+#pie-der {
+    position: absolute;
+    margin-left: 123px;
+}
+
+#pie-izq {
+    position: absolute;
+    margin-left: 46px;
+}
+
+/*=== Piernas, contenedor de rodillas y pies Robot-Sonny (Mayo 06 2009) HMM ===*===/
